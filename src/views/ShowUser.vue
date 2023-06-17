@@ -7,9 +7,9 @@
             </h6>
             <p class="card-text">{{ user.name }}</p>
             <h6 class="card-title">
-                Nama
+                Username
             </h6>
-            <p class="card-text">test</p>
+            <p class="card-text">{{ user.username }}</p>
         </div>
         <div v-else class="card-body text-center">
             Loading...
