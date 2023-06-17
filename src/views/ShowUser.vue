@@ -31,7 +31,7 @@ export default {
     methods: {
         getUser() {
             const id = this.$route.params.id;
-            axios.get("/users/${id}").then(response => {
+            axios.get(`/users/${id}`).then(response => {
                this.user = response.data;
                this.isLoading = false;
             });
